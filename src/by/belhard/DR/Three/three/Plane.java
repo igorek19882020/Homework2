@@ -16,6 +16,8 @@ public class Plane {
         this.maxs = maxs;
     }
 
+
+
     public void show() {
         System.out.println("Модель - " + name + "\n" + "Назначение- " + purpose + "\n" + "Макс. скорость(км/ч)- " + speed + "\n" + "Вместимость - " + maxseats + "\n" + "Макс.дальность полета(км)- " + maxs);
     }
